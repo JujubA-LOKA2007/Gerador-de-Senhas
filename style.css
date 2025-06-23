@@ -1,0 +1,195 @@
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffe97a;
+        color: #d67200;
+    }
+
+    h1 {
+        text-align: center;
+        color: #de7c0d;
+        font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+        
+    }
+
+    .password-container {
+        background-color: rgb(222, 124, 13);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgb(215, 99, 60, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .password-display {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    #password {
+        flex-grow: 1;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid #ddd;
+        border-radius: 4px 0 0 4px;
+        background-color: #f9f9f9;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+    }
+
+    #copy-btn {
+        padding: 10px 15px;
+        background-color: #28b82b;
+        color: white;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #copy-btn:hover {
+        background-color: #28b82b;
+    }
+
+    .controls {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .control-group {
+        margin-bottom: 15px;
+    }
+
+    .control-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+    }
+
+    .length-control {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .length-control button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        background-color: #28b82b;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+    }
+
+    .length-control button:hover {
+        background-color: #28b82b;
+    }
+
+    .length-control input {
+        width: 60px;
+        height: 36px;
+        text-align: center;
+        margin: 0 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+         
+    }
+
+    .checkbox-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .checkbox-group input {
+        margin-right: 10px;
+    }
+
+    .strength-selector {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .strength-btn {
+        flex-grow: 1;
+        padding: 10px;
+        text-align: center;
+        background-color: #ecf0f1;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+
+    }
+
+    .strength-btn:first-child {
+        border-radius: 4px 0 0 4px;
+    }
+
+    .strength-btn:last-child {
+        border-radius: 0 4px 4px 0;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+
+    }
+
+    .strength-btn.active {
+        color: white;
+        0ZJ&d]w(ss)W
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+
+        
+    }
+
+    #weak-btn.active {
+        background-color: #e74c3c;
+        
+
+    }
+
+    #medium-btn.active {
+        background-color: #f39c12;
+    }
+
+    #strong-btn.active {
+        background-color: #2ecc71;
+    }
+
+    #generate-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: #2ecc71;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+        
+    }
+
+    #generate-btn:hover {
+        background-color: #27ae60;
+    }
+
+    .notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #2ecc71;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        display: none;
+         font-family:  "Chewy","Mrs Sheppards", cursive;'Courier New', Courier, monospace;
+    }
+</style>
